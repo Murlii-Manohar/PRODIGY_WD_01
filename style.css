@@ -1,0 +1,56 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px 0;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.nav-links a:hover {
+    color: yellow;
+}
+
+/* Content to enable scrolling */
+.content {
+    margin-top: 80px;
+    padding: 50px;
+    height: 150vh;
+    background: linear-gradient(to bottom, #ffffff, #d1d1d1);
+}
+
+/* Navbar background change on scroll */
+.scrolled {
+    background-color: #222 !important;
+}
